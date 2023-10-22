@@ -1,0 +1,14 @@
+#so
+PHP_OPCACHE_ENABLE=0
+PHP_IDE_CONFIG=serverName=_
+
+#app
+DEBUG=true
+
+DB_HOST=db
+DB_USER=admin
+DB_PASSWORD=admin
+DB_DEFAULT_DATABASE=mundowap_test_cakephp
+
+SECURITY_SALT=8773edf3c59a5b17bb0dd5217f4132f4
+
