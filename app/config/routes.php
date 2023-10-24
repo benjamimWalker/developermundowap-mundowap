@@ -88,4 +88,9 @@ return static function (RouteBuilder $routes) {
      * });
      * ```
      */
+
+    $routes->scope('/', function (RouteBuilder $routes) {
+        $routes->setExtensions(['json']);
+        $routes->resources('Stores');
+    });
 };
